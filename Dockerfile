@@ -6,7 +6,7 @@ LABEL source-repo="https://github.com/boeboe/demo-rest-server"
 LABEL version=${VERSION}
 
 ADD entrypoint.sh /
-ADD jsontopickle.py /
+ADD demoserver.py /
 
 ENV BASEPATH ""
 ENV DELAY ""
