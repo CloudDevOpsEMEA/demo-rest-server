@@ -31,8 +31,8 @@ Supported endpoints, starting from a set or overridden <basepath>, are
     <others>                           : This help
 
 Optional request query parameters:
-    (*) delay : for endpoints with delay functionality
-    (**) size : for the binary endpoint
+ - (*) delay : for endpoints with delay functionality
+ - (**) size : for the binary endpoint
 
 ## How to run
 
