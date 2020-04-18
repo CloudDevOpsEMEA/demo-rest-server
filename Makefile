@@ -23,8 +23,8 @@ remove:
 kill:
 	docker kill demorestserver
 
-run_local: kill remove
+run_local:
 	docker run --name demorestserver ${IMAGE}
 
-run_remote: kill remove
+run_remote:
 	docker run --name demorestserver ${IMAGE}:${TAG}
