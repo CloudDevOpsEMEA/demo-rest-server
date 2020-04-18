@@ -5,6 +5,8 @@ LABEL description="The server runs on a given port and basepath. It exposes a nu
 LABEL source-repo="https://github.com/boeboe/demo-rest-server"
 LABEL version=${VERSION}
 
+RUN pip install Flask
+
 ADD entrypoint.sh /
 ADD demoserver.py /
 

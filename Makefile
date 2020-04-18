@@ -24,7 +24,7 @@ kill:
 	docker kill demorestserver
 
 run_local:
-	docker run --name demorestserver ${IMAGE}
+	docker run --name demorestserver -p 8000:8000 ${IMAGE}
 
 run_remote:
-	docker run --name demorestserver ${IMAGE}:${TAG}
+	docker run --name demorestserver -p 8000:8000 ${IMAGE}:${TAG}
