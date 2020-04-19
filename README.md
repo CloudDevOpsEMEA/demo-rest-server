@@ -7,7 +7,7 @@ This is a small Python3 Flask based web application for demo purposes.
 The server runs on a given port and basepath. It exposes a number of 
 REST endpoints that are handy for demo purposes on application behavior.
 
-Supported endpoints, starting from a set or overridden <basepath>, are
+Supported endpoints, starting from a set or overridden basepath, are
 
     /200 or /200_ok                    : GET/POST/PUT/DELETE/PATCH
     /201 or /201_created               : POST/PUT
