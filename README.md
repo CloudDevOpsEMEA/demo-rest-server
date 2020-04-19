@@ -214,8 +214,6 @@ Date: Sat, 18 Apr 2020 23:07:37 GMT
 Server: Werkzeug/1.0.1 Python/3.8.2
 
 >>>>>>>>>> ${will only respond after 10sec} <<<<<<<<<<
-# http localhost:8000/api/slow?delay=10 
-zsh: no matches found: localhost:8000/api/slow?delay=10
 # http "localhost:8000/api/slow?delay=10"
 HTTP/1.0 200 OK
 Content-Length: 41
